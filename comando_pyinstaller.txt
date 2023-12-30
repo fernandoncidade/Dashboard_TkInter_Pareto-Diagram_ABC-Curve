@@ -1,0 +1,18 @@
+Execute o seguinte comando para transformar o código em um programa executável, importando as dependências necessárias:
+
+
+
+pyinstaller --onefile -w --hidden-import babel.numbers Dashboard_TkInter_Pareto-Diagram_ABC-Curve.py
+
+
+
+O comando abaixo funciona, mas não carrega as dependências necessárias para o código em questão.
+pyinstaller --onefile -w Dashboard_TkInter_Pareto-Diagram_ABC-Curve.py
+
+
+
+Comando para instalar as bibliotecas e suas dependências (Apenas as instaladas por você):
+pip-chill > requirements.txt
+
+ou (incluindo as dependências instaladas por terceiros):
+pip freeze > requirements.txt

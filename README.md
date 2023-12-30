@@ -1,0 +1,2 @@
+# Dashboard_TkInter_Pareto-Diagram_ABC-Curve
+ This code is used to analyze data based on two graphs “ABC Curve” and “Pareto Diagram”, it has a friendly and intuitive graphical interface for the user to interact with ease. It is possible to export both graphs in “.png” image files.  Este código serve para analisar dados com base em dois gráficos "Curva ABC" e "Diagrama de Pareto", possui uma interface gráfica amigável e intuitiva para o usuário interagir com facilidade. É possível exportar ambos os gráficos em arquivos de imagem ".png".

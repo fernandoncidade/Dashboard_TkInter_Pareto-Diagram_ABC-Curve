@@ -1,0 +1,25 @@
+Este código é uma aplicação GUI em Python para carregar um arquivo Excel, selecionar colunas e gerar gráficos de Pareto e Curva ABC. Ele permite destacar itens específicos nos gráficos e salvá-los como imagens.
+
+
+
+Este código é uma aplicação de interface gráfica do usuário (GUI) em Python que permite ao usuário carregar um arquivo Excel, selecionar colunas específicas e gerar dois tipos de gráficos: o gráfico de Pareto e a Curva ABC. 
+
+O gráfico de Pareto é uma ferramenta de qualidade que ajuda a identificar as causas mais frequentes de um problema, enquanto a Curva ABC é uma forma de categorizar itens em três categorias: A, B e C, com base em sua importância ou valor.
+
+O código utiliza a biblioteca `tkinter` para criar a interface gráfica do usuário, que inclui botões para carregar o arquivo, gerar os gráficos e salvar os gráficos. A biblioteca `pandas` é usada para manipular os dados do arquivo Excel e a biblioteca `matplotlib` é usada para criar e exibir os gráficos.
+
+Aqui está um resumo de como o código funciona:
+
+1. O usuário carrega um arquivo Excel usando o botão 'Carregar arquivo'. O arquivo é lido como um DataFrame do pandas.
+
+2. O usuário seleciona duas colunas do DataFrame: uma para os valores numéricos e outra para a identificação dos itens.
+
+3. O usuário pode gerar o gráfico de Pareto ou a Curva ABC clicando nos respectivos botões. Os dados são ordenados e o gráfico é gerado usando `matplotlib`. No gráfico de Pareto, os itens são destacados com base em sua contribuição cumulativa para o total. Na Curva ABC, os itens são categorizados em três regiões (A, B e C) com base em sua porcentagem acumulada.
+
+4. O usuário pode destacar um item específico nos gráficos selecionando o item na lista suspensa.
+
+5. O usuário pode salvar os gráficos como imagens PNG clicando nos botões 'Salvar gráfico Pareto' e 'Salvar gráfico ABC'.
+
+6. O usuário pode limpar os dados e os gráficos clicando no botão 'Limpar dados e gráficos'.
+
+7. O código também inclui uma função para redimensionar os gráficos quando a janela da aplicação é redimensionada.
